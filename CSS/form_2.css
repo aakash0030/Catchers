@@ -1,0 +1,28 @@
+body{
+   background-image: url(../images/des2.jpg);
+}
+form{
+    border: 3px solid brown;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    background: #1c92d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h2, h3{
+    text-align: center;
+    font-family: 'Red Rose', cursive;
+    text-decoration: underline;
+}
+
+label, .btn{
+    font-family: 'Red Rose', cursive;
+}
+.form-group{
+    width: 50%;
+}

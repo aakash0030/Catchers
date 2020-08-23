@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/form_2.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Mail Information</h2>
+        <form action="/">
+            <fieldset>
+                <div class="form-group">
+                  <label for="exampleFormControlFile1">Choose CSV File:</label>
+                  <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                </div>
+                <div>
+                    Users Selected for Invite are:<br>
+                    <button type="button" class="btn btn-primary">Invite</button>
+                </div>
+                <br>
+                <div>
+                    <h3>Please Enter Below the Details to send mail.</h3>
+                </div>
+                <div>
+                       <div class="form-group">
+                          <label for="formGroupExampleInput">SMTP Server Name:</label>
+                          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="smtp1.example.com" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="formGroupExampleInput2">SMTP User Name:</label>
+                          <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="user@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput2">SMTP Password:</label>
+                            <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="Encrpted" required>
+                        </div>
+                        <div class="mb-3 form-group">
+                            <label for="validationTextarea">Mail Body</label>
+                            <textarea class="form-control " id="validationTextarea" placeholder="Required mail body textarea" required></textarea>
+                        </div>
+                        <div class="form-check form-group">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">
+                              Agree to terms and conditions
+                            </label>
+                            <div class="invalid-feedback">
+                              You must agree before submitting.
+                            </div>
+                        </div>
+                        <br>
+                        <button class="btn btn-success" type="submit">Send Mail</button>
+                </div>
+                </fieldset>
+        </form>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" ></script>
+</html>

@@ -1,7 +1,7 @@
 body{
    background-image: url(../images/des2.jpg);
 }
-form{
+.container{
     border: 3px solid brown;
     padding-left: 50px;
     padding-right: 50px;

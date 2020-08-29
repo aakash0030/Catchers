@@ -1,0 +1,32 @@
+body footer{
+    margin-top: 20px;
+}
+.sign{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.register{
+    text-align: right;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black
+}
+
+.register a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    border: 2px solid rgba(0, 0, 0, 0.664);
+    border-radius: 8px;
+    justify-items: center;
+    padding: 20px 20px;
+    margin-top: 30px;
+    background-color: rgb(244, 245, 237);
+    margin-bottom: 0px;
+    width: 50%;
+    font-family: 'Josefin Sans', sans-serif;
+}

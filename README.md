@@ -1,2 +1,2 @@
 # Catchers
-A Phishing Simulation Website for cyber IQ
+A Phishing Simulation Website.

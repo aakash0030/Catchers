@@ -3,12 +3,7 @@
 <head>
 <style>
 
-
-
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
-
-
-
 
 input,
 textarea,
@@ -41,11 +36,9 @@ html{
   margin: 20px auto;
   width: 500px; 
   height: 900px; 
- 
   border-radius: 8px/7px; 
   background-color: #ebebeb; 
-  
-  box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+   box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
   border: solid 2px #cbc9c9;
 }
 
@@ -56,44 +49,6 @@ input[type=radio] {
 form{
   margin: 0 40px;
 }
-
-label.radio {
-	cursor: pointer;
-  text-indent: 35px;
-  overflow: visible;
-  display: inline-block;
-  position: relative;
-  margin-bottom: 15px;
-}
-
-label.radio:before {
-  background: #3a57af;
-  content:'';
-  position: absolute;
-  top:2px;
-  left: 0;
-  width: 20px;
-  height: 20px;
-  border-radius: 100%;
-}
-
-label.radio:after {
-	opacity: 0;
-	content: '';
-	position: absolute;
-	width: 0.5em;
-	height: 0.25em;
-	background: transparent;
-	top: 7.5px;
-	left: 4.5px;
-	border: 3px solid #ffffff;
-	border-top: none;
-	border-right: none;
-
-	
-	transform: rotate(-45deg);
-}
-
 
 
 hr{
@@ -108,8 +63,7 @@ input[type=text],input[type=password]{
   -moz-border-radius: 0px 4px 4px 0px/0px 0px 4px 4px; 
   border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
   background-color: #fff; 
-  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
-  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+
   box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
   border: solid 1px #cbc9c9;
   margin-left: -5px;
@@ -122,15 +76,8 @@ input[type=password]{
 }
 
 
-
-
-.accounttype{
-  margin-left: 8px;
-  margin-top: 20px;
-}
-
 a.button {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   color: white;
   padding: 6px 25px 0px 20px;
@@ -139,42 +86,28 @@ a.button {
   float: right;
   text-decoration: none;
   width: 50px; height: 27px; 
-  -webkit-border-radius: 5px; 
-  -moz-border-radius: 5px; 
+ 
   border-radius: 5px; 
   background-color: #3a57af; 
-  -webkit-box-shadow: 0 3px rgba(58,87,175,.75); 
-  -moz-box-shadow: 0 3px rgba(58,87,175,.75); 
+ 
   box-shadow: 0 3px rgba(58,87,175,.75);
   transition: all 0.1s linear 0s; 
   top: 0px;
   position: relative;
 }
 
-a.button:hover {
-  top: 3px;
-  background-color:#2e458b;
-  -webkit-box-shadow: none; 
-  -moz-box-shadow: none; 
-  box-shadow: none;
-  
-}
+
 
 
 </style>
 </head>
 <body>
+
 <div class="testbox">
   <h1>Registration</h1>
 
   <form action="/">
-      <hr>
-    <div class="accounttype">
-      
-      <input type="radio" value="None" id="radioTwo" name="account" />
-      <label for="radioTwo" class="radio">Company</label>
-    </div>
-  <hr>
+    
   
   <label for="fname" style="color:red" > Comany Name:</label><br>
   <input type="text" name="name" id="name" placeholder="company name" style="width:300px" required/><br><br>
@@ -187,13 +120,17 @@ a.button:hover {
    
 
   
-  <label for="fname" style="color:red"> UserName(email):</label><br>
-  <input type="text" name="name" id="name" placeholder="abc@gamil.com"  style="width:300px" required/><br><br>
+  <label for="fname" style="color:red">Email:</label><br>
+  <input type="text" name="name" id="name" placeholder="abc@gmail.com"  style="width:300px" required/><br><br>
  
-   <label for="fname" style="color:red"> password:</label><br>
+   <label for="fname" style="color:red"> Password:</label><br>
   <input type="password" name="name" id="name" placeholder="Password" style="width:300px" required/><br>
-   <input type="file" name="fileToUpload" id="fileupload"><br>
-   <input type="submit" value="Csv file" name="submit"><br>
+  
+  <label for="fname" style="color:red">Confirm password:</label><br>
+  <input type="password" name="name" id="name" placeholder="Password" style="width:300px" required/><br>
+ 
+ 
+ 
  
    <p>By clicking Register, you agree on our <a href="#">terms and condition</a>.</p>
    <a href="#" class="button">Register</a>

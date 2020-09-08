@@ -5,10 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Red+Rose&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../CSS/form_2.css">
+	<link href="https://fonts.googleapis.com/css2?family=Red+Rose&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Red+Rose&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="../CSS/form_2.css">
+	<link rel="stylesheet" href="../CSS/style.css">
+	<link rel="stylesheet" href="../CSS/st.css">
 </head>
 <body>
+	<nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="main.html" target="blank">
+            <img src="../images/logo.png" width="40" height="30" class="d-inline-block align-top" alt="">
+            Catchers
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="main.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="camp_new.html">Start Campaign</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="mycampaign.html">My Campaign</a>
+            </li>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Stats
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Pie-Chart</a>
+                <a class="dropdown-item" href="#">Candle</a>
+                <a class="dropdown-item" href="#">Graphs</a>
+              </div>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="login_new.html">Login/Sign-Up</a>
+              </li>
+          </ul>
+        </div>
+	  </nav>
+
     <h2>Mail Information</h2>
     <div class="container">
         
@@ -48,10 +89,10 @@
 				<label for="formGroupExampleInput2">SMTP Password:</label>
 				<input type="password" class="form-control" id="formGroupExampleInput2" name="password" placeholder="Encrpted" required>
 			</div>
-			<div class="mb-3 form-group">
+			<!--<div class="mb-3 form-group">
 				<label for="validationTextarea">Mail Body</label>
 				<textarea class="form-control " id="validationTextarea" name="mailbody" placeholder="Required mail body textarea" required></textarea>
-			</div>
+			</div>-->
 			<div class="form-check form-group">
 				<input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
 				<label class="form-check-label" for="invalidCheck">
@@ -67,7 +108,58 @@
 	
 	    </fieldset>
     </form>
-    </div>
+	</div>
+	
+	<footer class="footer-distributed">
+
+		<div class="footer-left">
+	 
+			<h3>About<span>SKynet</span></h3>
+
+			<p class="footer-links">
+				<a href="Home.html">Home</a>
+				|
+				<a href="campaign.html">campaign</a>
+				|
+				<a href="Aboutus.html">About us</a>
+				|
+				<a href="login.html">login</a>
+			</p>
+
+			<p class="footer-company-name">© skynetsecure Solutions Pvt. Ltd.</p>
+		</div>
+
+		<div class="footer-center">
+			<div>
+				<i class="fa fa-map-marker"></i>
+				<p><span>309,JALPA DIVINE 
+					 Bldg. No. A - 1,Sector - 1</span>
+					Mahape,  MUMBAI - 400092</p>
+			</div>
+
+			<div>
+				<i class="fa fa-phone"></i>
+				<p>+91 22-27782183</p>
+			</div>
+			<div>
+				<i class="fa fa-envelope"></i>
+				<p><a href="mailto:info@skynetsecure@eduonix.com">info@skynetsecure.com</a></p>
+			</div>
+		</div>
+		<div class="footer-right">
+			<p class="footer-company-about">
+				<span>About the company</span>
+				We offer training and skill building courses across Technology, Design, Management, Science and Humanities.</p>
+			<div class="footer-icons">
+				<a href="#"><i class="fa fa-facebook" style="font-size:20px;"></i></a>
+				<a href="#"><i class="fa fa-twitter" style="font-size:20px;"></i></a>
+				<a href="#"><i class="fa fa-instagram"style="font-size:20px;"></i></a>
+				<a href="#"><i class="fa fa-linkedin"style="font-size:20px;"></i></a>
+				<a href="#"><i class="fa fa-youtube"style="font-size:20px;"></i></a>
+			</div>
+		</div>
+	</footer>
+  
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
